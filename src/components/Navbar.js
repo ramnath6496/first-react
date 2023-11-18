@@ -30,9 +30,9 @@ export default function Navbar(props) {
             <li className="nav-item me-2 fw-medium">
               <a className="nav-link active" href="#">Home</a>
             </li>
-            {/* <li className="nav-item me-2 fw-medium">
-              <a className="nav-link" onClick={activate} href="/about">About</a>
-            </li> */}
+            <li className="nav-item me-2 fw-medium">
+              <a className="nav-link" href="#">About</a>
+            </li>
           </ul>
           <button className={`btn btn-${props.mode === "light" ? "dark" : "light"} my-1 me-2`} onClick={props.modeToggler}>
             {props.icon === "MoonStarsFill" ? <Icon.MoonStarsFill size={24} /> : <Icon.SunFill size={24} />}
