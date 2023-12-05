@@ -6,7 +6,7 @@ export default function About(props) {
       <div className="accordion" id="accordionExample">
         <div className="accordion-item">
           <h2 className="accordion-header">
-            <button className={`accordion-button fw-medium text-bg-${props.mode}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Accordion Item #1</button>
+            <button className={`accordion-button fw-medium text-bg-${props.mode}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Analyze your Text</button>
           </h2>
           <div id="collapseOne" className={`accordion-collapse collapse text-${props.mode === "light" ? "dark" : "light"} bg-${props.mode === "dark" ? "secondary" : "white"} show`} data-bs-parent="#accordionExample">
             <div className="accordion-body">
@@ -16,7 +16,7 @@ export default function About(props) {
         </div>
         <div className="accordion-item">
           <h2 className="accordion-header">
-            <button className={`accordion-button fw-medium text-bg-${props.mode} collapsed`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Accordion Item #2</button>
+            <button className={`accordion-button fw-medium text-bg-${props.mode} collapsed`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Free to Use</button>
           </h2>
           <div id="collapseTwo" className={`accordion-collapse collapse text-${props.mode === "light" ? "dark" : "light"} bg-${props.mode === "dark" ? "secondary" : "white"}`} data-bs-parent="#accordionExample">
             <div className="accordion-body">
@@ -26,7 +26,7 @@ export default function About(props) {
         </div>
         <div className="accordion-item">
           <h2 className="accordion-header">
-            <button className={`accordion-button fw-medium text-bg-${props.mode} collapsed`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Accordion Item #3</button>
+            <button className={`accordion-button fw-medium text-bg-${props.mode} collapsed`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Browser Compatible</button>
           </h2>
           <div id="collapseThree" className={`accordion-collapse collapse text-${props.mode === "light" ? "dark" : "light"} bg-${props.mode === "dark" ? "secondary" : "white"}`} data-bs-parent="#accordionExample">
             <div className="accordion-body">
